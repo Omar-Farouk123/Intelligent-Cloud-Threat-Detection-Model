@@ -50,8 +50,6 @@ Intelligent-Cloud-Security-Threat-Detection-Model/
 ├── Merged datasets/         # Scripts for merging and preprocessing datasets and related documentation
 │   ├── DecisionTree_merged.py
 │   ├── DTRF_Merged.py
-│   ├── Multi Class Classification Details.pdf
-│   └── Thesis.pdf
 │
 ├── Models/                  # Python scripts for model architectures and utilities
 │   ├── AutoKeras.py
@@ -86,7 +84,7 @@ Intelligent-Cloud-Security-Threat-Detection-Model/
 
 **Explanation:**
 - `autokeras_model/`, `cnn_trials/`, `LSTN_Trials/`: Store model training results and best models for each threat type using different architectures (AutoKeras, CNN, LSTM).
-- `Merged datasets/`: Contains scripts for merging and preprocessing the raw datasets. This part is not fully implemented yet, but it is in the plan and results may be available soon.
+- `Merged datasets/`: Contains scripts for merging and preprocessing the raw datasets.
 - `Models/`: Contains Python scripts for building, training, and evaluating different machine learning models.
 - `Results/`: Includes images and outputs related to model evaluations and results.
 - `*.csv`: Raw data files for each threat type and normal traffic, sourced from the CICIDS2017 dataset.

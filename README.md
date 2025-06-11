@@ -140,8 +140,12 @@ After making these dataset adjustments, I proceeded to train and evaluate the mo
 In this section, I will discuss the dataset editing and preparation steps performed before training and evaluating the models.
 
 ## Future Work
-- **Unified Multi-Class Model**: I plan to develop and test a single model capable of multi-class classification across all threat types.
 - **Automated Response Triggers**: I aim to integrate routines to automatically trigger cloud activity shutdown or mitigation procedures upon detection of suspicious activity.
+
+## Additional Notes
+- A **multi-class classification model** is implemented in the `Merged datasets/DecisionTree_merged.py` script, allowing classification across all threat types in a unified approach.
+- This repository presents the full codebase for all experiments, models, and data processing steps described above.
+- Detailed explanations of all models and their development steps are provided in the attached PDF files: `thesis` (my thesis) and `multiclass model` (steps for the additional multi-class model).
 
 ---
 For more details, refer to the code and scripts in the respective folders.

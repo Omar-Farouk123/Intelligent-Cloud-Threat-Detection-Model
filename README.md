@@ -47,8 +47,11 @@ Intelligent-Cloud-Security-Threat-Detection-Model/
 │   ├── portscan_lstm/
 │   └── WebAttacks_LSTM/
 │
-├── Merged datasets/         # Scripts for merging and preprocessing datasets (not fully implemented yet, but planned for future integration; results may be available soon)
-│   └── DTRF_Merged.py
+├── Merged datasets/         # Scripts for merging and preprocessing datasets and related documentation
+│   ├── DecisionTree_merged.py
+│   ├── DTRF_Merged.py
+│   ├── Multi Class Classification Details.pdf
+│   └── Thesis.pdf
 │
 ├── Models/                  # Python scripts for model architectures and utilities
 │   ├── AutoKeras.py
@@ -57,6 +60,14 @@ Intelligent-Cloud-Security-Threat-Detection-Model/
 │   ├── DecisionTree and Random Forest.py
 │   ├── GPU_Check.py
 │   └── LSTM.py
+│
+├── Results/                 # Model result images and evaluation outputs
+│   ├── AutoKeras.PNG
+│   ├── cnn.PNG
+│   ├── data head.PNG
+│   ├── Data rows.PNG
+│   ├── DT.PNG
+│   └── LSTM.PNG
 │
 ├── *.csv                    # Raw data files for each threat type and normal traffic
 │   ├── Bot.csv
@@ -68,14 +79,18 @@ Intelligent-Cloud-Security-Threat-Detection-Model/
 │   ├── PortScan.csv
 │   └── WebAttacks.csv
 │
-└── README.md                # Project documentation
+├── Multi Class Classification Details.pdf  # Project documentation (root)
+├── Thesis.pdf                              # Project documentation (root)
+└── README.md                               # Main project documentation
 ```
 
 **Explanation:**
 - `autokeras_model/`, `cnn_trials/`, `LSTN_Trials/`: Store model training results and best models for each threat type using different architectures (AutoKeras, CNN, LSTM).
 - `Merged datasets/`: Contains scripts for merging and preprocessing the raw datasets. This part is not fully implemented yet, but it is in the plan and results may be available soon.
 - `Models/`: Contains Python scripts for building, training, and evaluating different machine learning models.
+- `Results/`: Includes images and outputs related to model evaluations and results.
 - `*.csv`: Raw data files for each threat type and normal traffic, sourced from the CICIDS2017 dataset.
+- `Multi Class Classification Details.pdf`, `Thesis.pdf`: Documentation files providing detailed information about the project and multi-class classification model.
 - `README.md`: Main project documentation.
 
 ## Frameworks and Technologies Used
